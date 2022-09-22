@@ -103,6 +103,17 @@ li {
 
         &[data-read="false"] {
             background-color: $bluegray-light1;
+            & .noti-remarks::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: -1.5rem;
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                background-color: $red;
+                transform: translateY(-50%);
+            }
         }
     }
 
@@ -128,6 +139,8 @@ li {
     }
 
     &-remarks {
+        position: relative;
+
         &[data-type="post"] {
             color: $bluegray-dark;
         }

@@ -82,6 +82,17 @@ li {
 .noti-box[data-read=false] {
   background-color: hsl(211deg, 68%, 94%);
 }
+.noti-box[data-read=false] .noti-remarks::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -1.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: hsl(1deg, 90%, 64%);
+  transform: translateY(-50%);
+}
 .noti-avatar {
   grid-row: 1/span 2;
   width: 100%;
@@ -98,6 +109,9 @@ li {
 }
 .noti-name, .noti-remarks {
   font-weight: 800;
+}
+.noti-remarks {
+  position: relative;
 }
 .noti-remarks[data-type=post] {
   color: hsl(219deg, 12%, 42%);
