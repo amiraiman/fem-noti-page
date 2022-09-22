@@ -158,4 +158,15 @@ li {
         font-size: 1.6rem;
         color: $bluegray;
     }
+
+    &-section {
+        border: 1px solid rgba($bluegray, 0.5);
+        border-radius: 0.5rem;
+        color: $bluegray-dark;
+        font-size: 1.6rem;
+        grid-column-start: 2;
+        line-height: 1.5;
+        margin: 1rem 0;
+        padding: 2rem;
+    }
 }

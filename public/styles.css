@@ -126,3 +126,13 @@ li {
   font-size: 1.6rem;
   color: hsl(219deg, 14%, 63%);
 }
+.noti-section {
+  border: 1px solid rgba(147, 157, 174, 0.5);
+  border-radius: 0.5rem;
+  color: hsl(219deg, 12%, 42%);
+  font-size: 1.6rem;
+  grid-column-start: 2;
+  line-height: 1.5;
+  margin: 1rem 0;
+  padding: 2rem;
+}
