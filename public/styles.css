@@ -78,6 +78,7 @@ li {
   grid-template-columns: 1fr 9fr;
   grid-column-gap: 1rem;
   padding: 1rem 2rem;
+  transition: all 0.4s ease-out;
 }
 .noti-box[data-read=false] {
   background-color: hsl(210deg, 60%, 98%);
