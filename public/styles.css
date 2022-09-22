@@ -154,3 +154,12 @@ li {
   margin: 1rem 0;
   padding: 2rem;
 }
+
+@media (max-width: 30em) {
+  html {
+    font-size: 56.25%;
+  }
+  .noti {
+    margin-top: 0;
+  }
+}
