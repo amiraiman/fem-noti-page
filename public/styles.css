@@ -80,7 +80,7 @@ li {
   padding: 1rem 2rem;
 }
 .noti-box[data-read=false] {
-  background-color: hsl(211deg, 68%, 94%);
+  background-color: hsl(210deg, 60%, 98%);
 }
 .noti-box[data-read=false] .noti-remarks::after {
   content: "";
@@ -95,7 +95,7 @@ li {
 }
 .noti-avatar {
   grid-row: 1/span 2;
-  width: 100%;
+  width: 70%;
   height: auto;
   align-self: center;
   justify-self: center;
@@ -109,6 +109,9 @@ li {
 }
 .noti-name, .noti-remarks {
   font-weight: 800;
+}
+.noti-activity {
+  color: #777;
 }
 .noti-remarks {
   position: relative;
