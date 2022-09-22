@@ -65,3 +65,19 @@ li {
 .noti-markread:hover {
   cursor: pointer;
 }
+.noti-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 1.6rem;
+}
+.noti-box {
+  display: grid;
+  border-radius: 0.8rem;
+  grid-template-columns: 1fr 9fr;
+  padding: 2rem;
+}
+.noti-box[data-read=false] {
+  background-color: hsl(211deg, 68%, 94%);
+}

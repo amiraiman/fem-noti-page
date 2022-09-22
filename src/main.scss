@@ -85,9 +85,23 @@ li {
             cursor: pointer;
         }
     }
-}
 
-.noti-box {
     &-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 1.6rem;
+    }
+
+    &-box {
+        display: grid;
+        border-radius: 0.8rem;
+        grid-template-columns: 1fr 9fr;
+        padding: 2rem;
+
+        &[data-read="false"] {
+            background-color: $bluegray-light1;
+        }
     }
 }
