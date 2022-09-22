@@ -54,8 +54,23 @@ li {
     }
 
     &-brand {
-        font-size: 2.4rem;
-        font-weight: 800;
-        text-transform: capitalize;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.2rem;
+
+        &--text {
+            font-size: 2.4rem;
+            font-weight: 800;
+            text-transform: capitalize;
+        }
+
+        &--count {
+            background-color: $blue;
+            border-radius: 0.5rem;
+            color: $white;
+            font-weight: 800;
+            padding: 0.1rem 1rem;
+        }
     }
 }
