@@ -153,4 +153,13 @@ li {
   .noti {
     margin-top: 0;
   }
+  .noti-box {
+    grid-template-columns: 2fr 8fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 0.5rem;
+    padding: 1rem;
+  }
+  .noti-box:has(.noti-image) {
+    grid-template-columns: 2fr 6fr 2fr;
+  }
 }
