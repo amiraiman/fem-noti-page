@@ -73,4 +73,21 @@ li {
             padding: 0.1rem 1rem;
         }
     }
+
+    &-markread {
+        background: none;
+        border: none;
+        color: $bluegray-dark;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.noti-box {
+    &-container {
+    }
 }
