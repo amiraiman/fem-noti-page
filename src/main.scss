@@ -97,29 +97,39 @@ li {
     &-box {
         display: grid;
         border-radius: 0.8rem;
+        background-color: $white;
         grid-template-columns: 1fr 9fr;
         grid-column-gap: 1rem;
         padding: 1rem 2rem;
-        transition: all 0.4s ease-out;
+        transition: all 0.3s ease-out;
 
         &[data-read="false"] {
             background-color: $bluegray-lightest;
-            & .noti-remarks::after {
-                content: "";
-                position: absolute;
-                top: 50%;
-                right: -1.5rem;
-                width: 1rem;
-                height: 1rem;
-                border-radius: 50%;
+
+            & .noti-checkmark {
                 background-color: $red;
-                transform: translateY(-40%);
+            }
+        }
+
+        &[data-read="true"] {
+            background-color: $white;
+
+            & .noti-checkmark {
+                background-color: $white;
             }
         }
 
         &:has(.noti-image) {
             grid-template-columns: 1fr 8fr 1fr;
         }
+    }
+
+    &-checkmark {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        transition: all 0.3s ease-in;
     }
 
     &-avatar {

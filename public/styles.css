@@ -75,27 +75,33 @@ li {
 .noti-box {
   display: grid;
   border-radius: 0.8rem;
+  background-color: hsl(0deg, 0%, 100%);
   grid-template-columns: 1fr 9fr;
   grid-column-gap: 1rem;
   padding: 1rem 2rem;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 .noti-box[data-read=false] {
   background-color: hsl(210deg, 60%, 98%);
 }
-.noti-box[data-read=false] .noti-remarks::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -1.5rem;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
+.noti-box[data-read=false] .noti-checkmark {
   background-color: hsl(1deg, 90%, 64%);
-  transform: translateY(-40%);
+}
+.noti-box[data-read=true] {
+  background-color: hsl(0deg, 0%, 100%);
+}
+.noti-box[data-read=true] .noti-checkmark {
+  background-color: hsl(0deg, 0%, 100%);
 }
 .noti-box:has(.noti-image) {
   grid-template-columns: 1fr 8fr 1fr;
+}
+.noti-checkmark {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
 }
 .noti-avatar {
   grid-row: 1/span 2;
