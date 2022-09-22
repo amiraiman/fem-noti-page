@@ -129,7 +129,7 @@ li {
         font-size: 1.5rem;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         gap: 0.6rem;
     }
 
@@ -151,6 +151,19 @@ li {
 
         &[data-type="group"] {
             color: $blue;
+        }
+
+        &[data-type="image"] {
+            flex-grow: 1;
+            color: #777;
+
+            & img {
+                width: 4rem;
+                height: 4rem;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
         }
     }
 

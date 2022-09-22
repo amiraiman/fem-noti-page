@@ -104,7 +104,7 @@ li {
   font-size: 1.5rem;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.6rem;
 }
 .noti-name, .noti-remarks {
@@ -121,6 +121,17 @@ li {
 }
 .noti-remarks[data-type=group] {
   color: hsl(219deg, 85%, 26%);
+}
+.noti-remarks[data-type=image] {
+  flex-grow: 1;
+  color: #777;
+}
+.noti-remarks[data-type=image] img {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .noti-time {
   font-size: 1.6rem;
