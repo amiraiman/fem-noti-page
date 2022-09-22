@@ -131,6 +131,17 @@ li {
         & span:not(:last-child) {
             margin-right: 0.6rem;
         }
+
+        &:has(.noti-remarks[data-type="image"]) {
+            display: flex;
+            justify-content: flex-start;
+            gap: 0.6rem;
+            align-items: flex-start;
+
+            & span {
+                margin-right: 0;
+            }
+        }
     }
 
     &-name,
@@ -154,13 +165,14 @@ li {
         }
 
         &[data-type="image"] {
+            margin-left: auto;
+
             & img {
                 width: 4rem;
                 height: 4rem;
                 position: absolute;
                 top: 0;
-                left: 0;
-                transform: translateX(430%);
+                right: 0;
             }
         }
     }
