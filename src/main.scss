@@ -91,7 +91,7 @@ li {
         flex-direction: column;
         justify-content: flex-start;
         align-items: stretch;
-        gap: 1.6rem;
+        gap: 1rem;
     }
 
     &-box {
@@ -112,7 +112,7 @@ li {
                 height: 1rem;
                 border-radius: 50%;
                 background-color: $red;
-                transform: translateY(-50%);
+                transform: translateY(-40%);
             }
         }
     }
