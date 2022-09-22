@@ -99,6 +99,9 @@ li {
 .noti-name, .noti-remarks {
   font-weight: 800;
 }
+.noti-remarks[data-type=post] {
+  color: hsl(219deg, 12%, 42%);
+}
 .noti-time {
   font-size: 1.6rem;
   color: hsl(219deg, 14%, 63%);
