@@ -1,7 +1,23 @@
-.card {
-  color: #fff;
-  background-color: #333;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.card-title {
-  background-color: "#aaffbb";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+ul,
+li {
+  list-style: none;
 }
