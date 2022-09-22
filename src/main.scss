@@ -113,4 +113,17 @@ li {
         align-self: center;
         justify-self: center;
     }
+
+    &-details {
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    &-name,
+    &-remarks {
+        font-weight: 800;
+    }
 }

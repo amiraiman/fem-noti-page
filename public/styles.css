@@ -89,3 +89,13 @@ li {
   align-self: center;
   justify-self: center;
 }
+.noti-details {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.6rem;
+}
+.noti-name, .noti-remarks {
+  font-weight: 800;
+}
