@@ -93,6 +93,9 @@ li {
   background-color: hsl(1deg, 90%, 64%);
   transform: translateY(-40%);
 }
+.noti-box:has(.noti-image) {
+  grid-template-columns: 1fr 8fr 1fr;
+}
 .noti-avatar {
   grid-row: 1/span 2;
   width: 70%;
@@ -105,15 +108,6 @@ li {
 }
 .noti-details span:not(:last-child) {
   margin-right: 0.6rem;
-}
-.noti-details:has(.noti-remarks[data-type=image]) {
-  display: flex;
-  justify-content: flex-start;
-  gap: 0.6rem;
-  align-items: flex-start;
-}
-.noti-details:has(.noti-remarks[data-type=image]) span {
-  margin-right: 0;
 }
 .noti-name, .noti-remarks {
   font-weight: 800;
@@ -130,16 +124,6 @@ li {
 .noti-remarks[data-type=group] {
   color: hsl(219deg, 85%, 26%);
 }
-.noti-remarks[data-type=image] {
-  margin-left: auto;
-}
-.noti-remarks[data-type=image] img {
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 .noti-time {
   font-size: 1.6rem;
   color: hsl(219deg, 14%, 63%);
@@ -153,6 +137,13 @@ li {
   line-height: 1.5;
   margin: 1rem 0;
   padding: 2rem;
+}
+.noti-image {
+  grid-column-start: 3;
+  grid-row: 1/span 2;
+  width: 70%;
+  height: auto;
+  justify-self: end;
 }
 
 @media (max-width: 30em) {
