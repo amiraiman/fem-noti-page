@@ -154,14 +154,13 @@ li {
         }
 
         &[data-type="image"] {
-            color: #777;
-
             & img {
                 width: 4rem;
                 height: 4rem;
                 position: absolute;
                 top: 0;
                 left: 0;
+                transform: translateX(430%);
             }
         }
     }
