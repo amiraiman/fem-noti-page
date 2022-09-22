@@ -36,3 +36,12 @@ ul,
 li {
     list-style: none;
 }
+
+.notification {
+    background-color: $white;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 5px $bluegray-lightest;
+    max-width: 70rem;
+    margin: 10rem auto 0;
+    padding: 3rem 2rem 1rem;
+}
