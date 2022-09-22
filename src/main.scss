@@ -127,10 +127,10 @@ li {
 
     &-details {
         font-size: 1.5rem;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 0.6rem;
+
+        & span:not(:last-child) {
+            margin-right: 0.6rem;
+        }
     }
 
     &-name,
@@ -154,7 +154,6 @@ li {
         }
 
         &[data-type="image"] {
-            flex-grow: 1;
             color: #777;
 
             & img {
@@ -162,7 +161,7 @@ li {
                 height: 4rem;
                 position: absolute;
                 top: 0;
-                right: 0;
+                left: 0;
             }
         }
     }
