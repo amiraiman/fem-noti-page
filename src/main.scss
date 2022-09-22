@@ -1,0 +1,10 @@
+$someshit: "#aaffbb";
+
+.card {
+    color: #fff;
+    background-color: #333;
+
+    &-title {
+        background-color: $someshit;
+    }
+}
