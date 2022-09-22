@@ -90,7 +90,7 @@ li {
   justify-self: center;
 }
 .noti-details {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -98,4 +98,8 @@ li {
 }
 .noti-name, .noti-remarks {
   font-weight: 800;
+}
+.noti-time {
+  font-size: 1.6rem;
+  color: hsl(219deg, 14%, 63%);
 }
