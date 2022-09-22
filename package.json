@@ -1,11 +1,11 @@
 {
-  "name": "2_notifications",
+  "name": "notifications",
   "version": "1.0.0",
-  "description": "![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)",
+  "description": "Frontend Mentor Challenges",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Amir Aiman",
   "license": "ISC"
 }
