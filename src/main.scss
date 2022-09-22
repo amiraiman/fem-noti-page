@@ -144,6 +144,10 @@ li {
         &[data-type="post"] {
             color: $bluegray-dark;
         }
+
+        &[data-type="group"] {
+            color: $blue;
+        }
     }
 
     &-time {
