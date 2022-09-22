@@ -77,20 +77,20 @@ li {
   border-radius: 0.8rem;
   grid-template-columns: 1fr 9fr;
   grid-column-gap: 2rem;
-  grid-row-gap: 1rem;
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 .noti-box[data-read=false] {
   background-color: hsl(211deg, 68%, 94%);
 }
 .noti-avatar {
   grid-row: 1/span 2;
-  width: 5rem;
+  width: 100%;
+  height: auto;
   align-self: center;
   justify-self: center;
 }
 .noti-details {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
