@@ -76,8 +76,16 @@ li {
   display: grid;
   border-radius: 0.8rem;
   grid-template-columns: 1fr 9fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
   padding: 2rem;
 }
 .noti-box[data-read=false] {
   background-color: hsl(211deg, 68%, 94%);
+}
+.noti-avatar {
+  grid-row: 1/span 2;
+  width: 5rem;
+  align-self: center;
+  justify-self: center;
 }
