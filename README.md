@@ -56,20 +56,14 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-    color: papayawhip;
+```sass
+&:has(.noti-image) {
+    grid-template-columns: 1fr 8fr 1fr;
 }
-```
 
-```js
-const proudOfThisFunc = () => {
-    console.log("🎉");
-};
+& span:not(:last-child) {
+    margin-right: 0.6rem;
+}
 ```
 
 ### Continued development
