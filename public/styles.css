@@ -104,17 +104,20 @@ li {
 .noti-box[data-read=true] {
   background-color: hsl(0deg, 0%, 100%);
 }
-.noti-box[data-read=true] .noti-checkmark {
-  background-color: hsl(0deg, 0%, 100%);
-}
 .noti-box:has(.noti-image) {
   grid-template-columns: 1fr 8fr 1fr;
 }
+.noti-box:hover, .noti-box:active {
+  background-color: hsl(211deg, 68%, 94%);
+  cursor: pointer;
+  transform: scale(1.05);
+}
 .noti-checkmark {
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
   border-radius: 50%;
+  background-color: transparent;
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
   transition: all 0.3s ease-in;
 }
 .noti-avatar {

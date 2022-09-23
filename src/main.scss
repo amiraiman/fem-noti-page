@@ -128,22 +128,26 @@ li {
 
         &[data-read="true"] {
             background-color: $white;
-
-            & .noti-checkmark {
-                background-color: $white;
-            }
         }
 
         &:has(.noti-image) {
             grid-template-columns: 1fr 8fr 1fr;
         }
+
+        &:hover,
+        &:active {
+            background-color: $bluegray-light1;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
     }
 
     &-checkmark {
-        display: inline-block;
-        width: 1rem;
-        height: 1rem;
         border-radius: 50%;
+        background-color: transparent;
+        display: inline-block;
+        height: 1rem;
+        width: 1rem;
         transition: all 0.3s ease-in;
     }
 
