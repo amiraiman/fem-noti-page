@@ -50,7 +50,8 @@ Users should be able to:
 -   CSS Grid
 -   Sass
 -   Javascript
--   NPM for package management
+-   NodeJS
+-   NPM
 -   Desktop-first workflow
 
 ### What I learned
