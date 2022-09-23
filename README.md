@@ -29,13 +29,18 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop view](./screenshot.png)
-![Mobile view](./screenshot2.png)
+#### Desktop View
+
+![](./screenshot.png)
+
+#### Mobile View
+
+![](./screenshot2.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/amiraiman/fem-noti-page)
--   Live Site URL: [Add live site URL here](https://amiraiman.github.io/fem-noti-page)
+-   [Code Repo](https://github.com/amiraiman/fem-noti-page)
+-   [Live Demo](https://amiraiman.github.io/fem-noti-page)
 
 ## My process
 
