@@ -14,7 +14,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
     -   [Continued development](#continued-development)
     -   [Useful resources](#useful-resources)
 -   [Author](#author)
--   [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -78,13 +77,12 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-   [MDN Pseudo Selector Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#alphabetical_index) - This helped me in finding the 'has' selector to specifically target a parent element that has a children with a certain attributes.
 
 ## Author
 
 -   Github - [Amir Aiman](https://www.github.com/amiraiman)
 -   Frontend Mentor - [@amiraiman](https://www.frontendmentor.io/profile/amiraiman)
--   Email - [amiraiman.jj@gmail.com](mailto::amiraiman.jj@gmail.com)
+-   Email - [amiraiman.jj@gmail.com](mailto:amiraiman.jj@gmail.com)
 
 ## Acknowledgments
