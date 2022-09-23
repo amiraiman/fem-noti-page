@@ -23,6 +23,30 @@ li {
   list-style: none;
 }
 
+.btn {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: hsl(219deg, 12%, 42%);
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: rgba(10, 49, 123, 0.9);
+  border: 1px solid rgba(10, 49, 123, 0.9);
+  color: hsl(0deg, 0%, 100%);
+}
+.btn-primary:hover {
+  background-color: hsl(219deg, 85%, 26%);
+  border: 1px solid hsl(219deg, 85%, 26%);
+}
+
 .noti {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 1rem;
@@ -54,16 +78,6 @@ li {
   color: hsl(0deg, 0%, 100%);
   font-weight: 800;
   padding: 0.1rem 1rem;
-}
-.noti-markread {
-  background: none;
-  border: none;
-  color: hsl(219deg, 12%, 42%);
-  font-size: 1.6rem;
-  text-transform: capitalize;
-}
-.noti-markread:hover {
-  cursor: pointer;
 }
 .noti-container {
   display: flex;
