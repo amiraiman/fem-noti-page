@@ -78,6 +78,8 @@ const proudOfThisFunc = () => {
 ### Useful resources
 
 -   [MDN Pseudo Selector Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#alphabetical_index) - This helped me in finding the 'has' selector to specifically target a parent element that has a children with a certain attributes.
+-   [Sass Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#alphabetical_index) - This helped me in setting up sass compilation with a script instead of the CLI
+-   [NodeJS FS module](https://nodejs.dev/en/learn/writing-files-with-nodejs/) - This helped me in figuring out how to write the compiled sass into a css file.
 
 ## Author
 
